@@ -8,6 +8,7 @@ try {
 if(!user) {
 throw new Error
 }
+//oky
   req.token = token
   req.user = user
 next()
